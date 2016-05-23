@@ -2,23 +2,17 @@
 layout: default
 ---
 
-<div class="home">
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-  <h1 class="page-heading">Posts</h1>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Tj8gGk8KRxE" frameborder="0" allowfullscreen></iframe>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.github.url }}">via RSS</a></p>
-
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
 </div>
