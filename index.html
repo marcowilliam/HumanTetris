@@ -14,10 +14,14 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+      
       </li>
     {% endfor %}
   </ul>
 
+      <h2>
+          <a class="post-link" href="{{ post.github}}" target="_blank">{{ site.title }} on GitHub</a>
+        </h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Tj8gGk8KRxE" frameborder="0" allowfullscreen></iframe>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
