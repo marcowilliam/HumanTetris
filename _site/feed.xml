@@ -4,10 +4,10 @@
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 May 2016 10:37:29 -0300</pubDate>
-    <lastBuildDate>Mon, 23 May 2016 10:37:29 -0300</lastBuildDate>
+    <link>https://marcowilliam.github.io/HumanTetris/</link>
+    <atom:link href="https://marcowilliam.github.io/HumanTetrishttp://marcowilliam.github.io/HumanTetris/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 23 May 2016 18:14:42 -0300</pubDate>
+    <lastBuildDate>Mon, 23 May 2016 18:14:42 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -29,8 +29,8 @@
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Mon, 23 May 2016 07:31:47 -0300</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/05/23/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/05/23/welcome-to-jekyll.html</guid>
+        <link>https://marcowilliam.github.io/HumanTetris/jekyll/update/2016/05/23/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://marcowilliam.github.io/HumanTetris/jekyll/update/2016/05/23/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
